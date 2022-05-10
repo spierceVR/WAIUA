@@ -61,15 +61,6 @@
 			</Grid.ColumnDefinitions>
 
 			<Button
-				Grid.Column="0"
-				Margin="7"
-				Command="{Binding NavigateSettingsCommand}"
-				Template="{StaticResource ButtonTemplate}">
-
-				<Image Margin="10" Source="/images/Assets/settings.png" />
-			</Button>
-
-			<Button
 				Grid.Column="1"
 				Margin="0,7"
 				Command="{Binding NavigateHomeCommand}"
@@ -89,14 +80,6 @@
 				</Viewbox>
 			</Button>
 
-			<Button
-				Grid.Column="2"
-				Margin="7"
-				Command="{Binding NavigateInfoCommand}"
-				Template="{StaticResource ButtonTemplate}">
-
-				<Image Margin="10" Source="/images/Assets/info.png" />
-			</Button>
 		</Grid>
 		<Grid
 			Grid.Row="1"

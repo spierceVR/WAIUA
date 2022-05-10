@@ -49,8 +49,6 @@ namespace WAIUA
 			MainWindow.Show();
 			base.OnStartup(e);
 			await CheckAndUpdateJson();
-			AutoUpdater.ShowSkipButton = false;
-			AutoUpdater.Start("https://raw.githubusercontent.com/Soneliem/WAIUA/master/WAIUA/VersionInfo.xml");
 		}
 
 		private void Application_Exit(object sender, ExitEventArgs e)
